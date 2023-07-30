@@ -1,0 +1,90 @@
+<!doctype html>
+<html>
+	 <head>
+	     <meta charset="UTF-8">
+		  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+		 <title>Digital Clock </title>
+		 <link href="./image/clock.png" rel="icon">
+		 <link href="css/style.css" rel="stylesheet">
+		 <link rel="preconnect" href="https://fonts.googleapis.com">
+		 <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&family=Nunito:wght@300&family=Vujahday+Script&display=swap" rel="stylesheet">
+
+	 </head>
+	 <body>
+		 <section>
+				
+			 <div class="container">
+				<div class="row">
+					<div class="col">
+					<div class='first'>
+						<div class="date">
+							<div>
+								<label for="date" class="lab">Date</label>
+								<input type="text" id="date" class="user start">
+							</div>
+							<div>
+								<label for="month" class="lab">Month</label>
+								<input type="text" id="month" class="user mid">
+							</div>
+							<div>
+								<label for="year" class="lab">Year</label>
+								<input type="text" id="year" class="user end">
+							</div>
+						</div>
+						<div class="time">
+							<div>
+								<label for="hour" class="lab">Hour</label>
+								<input type="text" id="hour" class="user start">
+							</div>
+							<div>
+								<label for="min" class="lab">Minute</label>
+								<input type="text" id="min" class="user mid">
+							</div>
+							<div>
+								<label for="sec" class="lab">Seconds</label>
+								<input type="text" id="sec" class="user ends">
+							</div>
+							<div>
+								<label for="sec" class="lab">Period</label>
+								<input type="text" id="per" class="user end">
+							</div>
+						</div>
+						<div class="days">
+						    <input type="radio" name="days" class="display" id="zero">
+							<label for="zero">Sun</label>
+							<input type="radio" name="days" class="display" id="one">
+							<label for="one">Mon</label>
+							<input type="radio" name="days" class="display" id="two">
+							<label for="two">Tue</label>
+							<input type="radio" name="days" class="display" id="three">
+							<label for="three">Wed</label>
+							<input type="radio" name="days" class="display" id="four">
+							<label for="four">Thurs</label>
+							<input type="radio" name="days" class="display" id="five">
+							<label for="five">Fri</label>
+							<input type="radio" name="days" class="display" id="six">
+							<label for="six">Sat</label>
+							
+							
+						</div>
+						<div class="change">
+							<label for="seven">Date</label>
+							<input type="text" name="datestring" class="str-date">
+							
+						</div>
+						<div class="change">
+						    <button class="btn">Change Time</button>
+						</div>
+						</div>
+					</div>
+				</div>
+			 </div>
+			 
+				
+		 </section>
+	 
+		<script src="main.js"></script>
+	 
+	 
+	 </body>
+</html>

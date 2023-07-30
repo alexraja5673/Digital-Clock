@@ -1,0 +1,109 @@
+*{
+	padding: 0;
+	margin:0 ;
+	box-sizing: border-box;
+}
+
+
+
+.row{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.col{
+	width:50%;
+	border: 1px solid;
+	background: #080808;
+	height: inherit;
+	padding: 50px ;
+}
+.first{
+	padding:70px 0;
+	border: 3px solid #fff;
+}
+.user{
+	
+	border: none;
+	margin-top:5px;
+	font-family: 'Bungee Spice', cursive;
+	background:black;
+}
+.start{
+	border-top:1px solid #444;
+	border-left:1px solid #444;
+	border-bottom:1px solid #444;
+}
+.mid{
+	border-top:1px solid #444;
+	border-bottom:1px solid #444;
+}
+.end{
+	border-top:1px solid #444;
+	border-right:1px solid #444;
+	border-bottom:1px solid #444;
+}
+.ends{
+	border-top:1px solid #444;
+	border-bottom:1px solid #444;
+}
+.lab{
+	display: block;
+	font-size: 25px;
+	color: #fff;
+}
+.date{
+	width:50%;
+	margin:auto;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+}
+.time{
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	margin-top: 50px;
+}
+.days{
+	margin-top: 30px;
+	text-align: center;
+}
+.days>label{
+	color: #fff;
+}
+.user{
+	text-align: center;
+    font-size: 35px;
+	width: 100px;
+	height: 50px;
+}
+.change{
+	text-align: center;
+	margin-top:20px;
+}
+.change label{
+	font-size:30px;
+	color: #fff;
+}
+.change input{
+	border:1px solid #fff;
+	outline:none;
+	font-size:22px;
+	padding:5px 4px;
+	text-align: center;
+	font-family: 'Bungee Spice', cursive;
+	background: black;
+}
+.btn{
+	padding:7px 10px;
+	background:#f35555;
+	color:blue;
+	font-size:20px;
+	border:none;
+	cursor:pointer;
+	border-radius:15px;
+}
+.display{
+	accent-color:red;
+}
